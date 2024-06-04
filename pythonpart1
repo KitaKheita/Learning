@@ -1,0 +1,29 @@
+age = 30
+name = "Sherlock Holmes"
+height = 1.75
+weight = 55
+
+
+
+#print("Name:", name, "Age:", age, "Height:", height, "Weight:", weight)
+
+sum = 5 + 3
+difference = 10 - 2
+times = 5**2
+
+#print(sum)
+
+medications = ["Aspirin", "Ibuprofen", "Paracetamol"]
+print(medications)
+
+medications.append("Metformin")
+print(medications[1], medications[3])
+
+#Dictionaries
+patient = {
+    "name": "Sherlock Holmes",
+    "age": "45",
+    "weight": 70,
+    "conditions": ["hypertension", "diabetes"]
+}
+print(patient["conditions"][0])
